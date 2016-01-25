@@ -1,14 +1,26 @@
-layout_spectrum: 0.217327
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.5430108
 color:
   saturation: 0.4437015
   lightness: 0.6153646
-  brandStrength: 0.2882848
-  rhythmicContrast: 0.3869179
+  brandStrength: 1
   brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-typography_spectrum: 0.5430108
+    - '#025C65'
+    - '#88BEF1'
+    - '#FFD789'
+    - '#1F1F02'
+    - '#FBF9F5'
+  rhythmicContrast: 0.3869179
+layout_spectrum: 0.5573477
 name: TroubleTheBand
